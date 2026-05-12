@@ -1,0 +1,6 @@
+:root {
+}
+
+.button-size {
+    font-size: 14px;
+}

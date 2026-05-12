@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UITestDoc.uss?fileID=7433441132597879392&amp;guid=29d1ce6f45488e840a527aa37ed26598&amp;type=3#UITestDoc"/>
+    <ui:Button text="カウントアップ" name="button-countup"/>
+    <ui:Button text="カウントダウン" name="button-countdown"/>
+    <ui:Label text="Label" data-source="project://database/Assets/UI%20Toolkit/Scripts/CountModel.asset?fileID=11400000&amp;guid=f0f5b9becba2e5d43a0b5a045bc0ed85&amp;type=2#CountModel" triple-click-selects-line="true" data-source-path="Counter" style="font-size: 170px; -unity-text-align: upper-center;">
+        <Bindings>
+            <ui:DataBinding property="text" binding-mode="ToTarget"/>
+        </Bindings>
+    </ui:Label>
+    <ui:Image>
+        <ui:Image/>
+    </ui:Image>
+</ui:UXML>
